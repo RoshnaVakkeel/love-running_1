@@ -129,12 +129,15 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
+    text-align: left;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
+    text-align: right;
+    padding-right: 180px;
 }
 
 #center-about {
@@ -158,7 +161,7 @@ hr {
 
 .right-about-heading {
     width: 60%;
-    float: left;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -193,4 +196,14 @@ hr {
     height: 100%;
     background-image: url(../images/ethos-center-image.jpg);
     border-radius: 50%;
+}
+
+/* event times */
+
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
 }
