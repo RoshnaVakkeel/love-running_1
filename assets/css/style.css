@@ -182,7 +182,7 @@ hr {
 }
 
 #circle-container {
-    width:300px;
+    width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
@@ -218,11 +218,11 @@ hr {
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 #times h2 {
-    color:#fafafa
+    color: #fafafa
 }
 
 /* footer */
@@ -235,7 +235,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -243,18 +243,53 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /*gallery*/
 
 #photos {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos > img {
-    width:100%
+#photos>img {
+    width: 100%
+}
+
+/*media query club ethos*/
+
+/*FOr larger to medium screenssize from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
 }
